@@ -1,29 +1,19 @@
-# README #
+# Template Base Externa de clientes EnContact #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Este projeto tem como objetivo servir de apoio e exemplos para integrações de base externa de clientes aos usuários do EnContact.
 
-### What is this repository for? ###
+### Para que foi criado este repositório? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Facilitar a criação de integrações da base de clientes do sistema EnContact para bases de cliente pré-existentes.
+* Servir como template inicial ou exemplo.
+* Dividir conhecimento com nossos parceiros e clientes.
 
-### How do I get set up? ###
+### Como faço? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Crie um Fork do código
+* Configure a integração com a sua base de clientes
+* Efetue seus testes
 
-### Contribution guidelines ###
+### E se eu precisar de ajuda? ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Entre em contato conosco em atendimento<Arroba>encontact.com.br

@@ -36,3 +36,4 @@ MyTestService.prototype.SalvarComFalha = function(Nome, CPF){
 var soapServer = new soap.SoapServer();
 var soapService = soapServer.addService('WSClientes', new MyTestService());
 soapServer.listen(1337, '127.0.0.1');
+console.log("Serviço iniciado em http://127.0.0.1:1337/WSClientes?wsdl");

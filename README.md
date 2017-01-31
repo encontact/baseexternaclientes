@@ -42,7 +42,7 @@ Imaginando que temos a seguinte configuração de Base de cliente cadastrada no 
 
 #### Criando o serviço de pesquisa ####
 
-1. Para a estrutura de base de clientes apresentada acima deveremos desenvolver um webservice SOAP receba com a seguinte estrutura:
+1. Para a estrutura de base de clientes apresentada acima deveremos desenvolver um webservice receba com a seguinte estrutura:
     1. **ENTRADA**
         1. Ele receberá como parâmetro dois campos:
             * **Nome**, tipo string
@@ -54,6 +54,7 @@ Imaginando que temos a seguinte configuração de Base de cliente cadastrada no 
             * **Nome**, tipo string
             * **Cpf**, tipo string
         1. Os campos respeitam a nomenclatura da coluna **Nome** configurada na base de clientes.
+        1. Não é obrigatória a lista ser marcada como tipo Cliente, mas sim os campos de informação estarem de acordo com a configuração da base de cliente.
 
 #### Criando o serviço de gravação ####
 
@@ -84,8 +85,8 @@ Configuração da integração:
     1. **Senha**, opcional, senha de acesso em caso de necessidade de autenticação na chamada do serviço. Se não houver, deixar em branco.
     1. **Url do webservice**, deve informar a URL que retornará o XML SOAP de disponibilidade dos serviços.
         1. Após configurar a URL do serviço, é possível clicar no botão "Buscar" para que sejam carregados os métodos disponíveis para integração.
-        1. **Método de consulta**, deve ser escolhido qual método do SOAP irá integrar as pesquisas de cliente utilizando o serviço.
-        1. **Método de adição/edição**, opcional, deve ser escolhido qual método SOAP irá integrar a gravação de novos clientes ou edição de clientes existentes. Se não for escolhido um método, o sistema não permitirá cadastro e alteração da base de clientes pelo EnContact.
+        1. **Método de consulta**, deve ser escolhido qual método do webservice irá integrar as pesquisas de cliente utilizando o serviço.
+        1. **Método de adição/edição**, opcional, deve ser escolhido qual método webservice irá integrar a gravação de novos clientes ou edição de clientes existentes. Se não for escolhido um método, o sistema não permitirá cadastro e alteração da base de clientes pelo EnContact.
     1. **Parâmetros adicionais a serem enviados ao webservice**, opcional, caso haja necessidade do serviço receber algum parâmetro adicional, como por exemplo um token de acesso, o mesmo pode ser configurado nesta etapa, informando como parâmetro, o texto do campo a ser enviado ao webservice e como valor o texto fixo que deve ser enviado.
 
 ## E se eu precisar de ajuda? ##
